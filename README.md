@@ -39,7 +39,7 @@ This Python script scans files in the `Suspicious_Applications` folder, computes
 
 4. **Run the Script:**
    ```sh
-   python file_integrity_checker.py
+   python "C:\Users\Owner\Desktop\File Integrity Checker\venv\File Integrity Checker.py"
    ```
 
 ## 🖥️ Example Usage
