@@ -66,11 +66,11 @@ Trusted hash database updated.
 ```
 
 ## 📸 Screenshots
-### **Example_Applications Folder:**
-![Example Applications Folder](screenshots/example_applications.png)
+### **Suspicious_Applications Folder:**
+![image](https://github.com/user-attachments/assets/6b06c603-d160-44fb-ab82-87442d2e56b8)
 
 ### **CMD Output:**
-![CMD Output](screenshots/cmd_output.png)
+![image](https://github.com/user-attachments/assets/14aadf44-f77c-43ae-aa21-fc2690bae278)
 
 ## 🤝 Contributing
 Feel free to fork this repository and submit pull requests to improve the script!
