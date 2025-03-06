@@ -53,7 +53,7 @@ Place any suspicious files into the `Suspicious_Applications` folder before runn
 │-- 📜 unknown_installer.exe
 ```
 
-### 🔹 Running the Script
+### 🔷 Running the Script
 ```sh
 python file_integrity_checker.py
 ```
