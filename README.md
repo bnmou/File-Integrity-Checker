@@ -1,9 +1,9 @@
-# 🛡️ File Integrity Checker with VirusTotal
+# File Integrity Checker with VirusTotal
 
-## 🔍 Overview
+## Overview
 This Python script scans files in the `Suspicious_Applications` folder, computes their SHA-256 hashes, and checks them against VirusTotal’s database to determine if they are **CLEAN, MALICIOUS, or UNKNOWN**.
 
-## ⚙️ How It Works
+## How It Works
 - Scans files in `Suspicious_Applications/`
 - Resolves `.lnk` shortcuts to actual `.exe` files
 - Computes SHA-256 hash of each executable
@@ -11,7 +11,7 @@ This Python script scans files in the `Suspicious_Applications` folder, computes
 - Stores hashes in `trusted_hashes.json`
 - Displays results in the command prompt
 
-## 📂 Project Structure
+## Project Structure
 ```plaintext
 📂 File-Integrity-Checker
 │-- 📂 Suspicious_Applications/      # Folder where suspicious apps are placed
@@ -22,7 +22,7 @@ This Python script scans files in the `Suspicious_Applications` folder, computes
 │-- 📂 screenshots/               # CMD output and Example Applications folder
 ```
 
-## 🚀 Installation & Setup
+## Installation & Setup
 1. **Clone the Repository:**
    ```sh
    git clone https://github.com/bnmou/File-Integrity-Checker.git
@@ -42,8 +42,8 @@ This Python script scans files in the `Suspicious_Applications` folder, computes
    python "C:\Users\Owner\Desktop\File Integrity Checker\venv\File Integrity Checker.py"
    ```
 
-## 🖥️ Example Usage
-### 🔸 Dropping Suspicious Applications
+## Example Usage
+### Dropping Suspicious Applications
 Place any suspicious files into the `Suspicious_Applications` folder before running the script.
 
 **Example Folder:**
@@ -53,7 +53,7 @@ Place any suspicious files into the `Suspicious_Applications` folder before runn
 │-- 📜 unknown_installer.exe
 ```
 
-### 🔷 Running the Script
+### Running the Script
 ```sh
 python file_integrity_checker.py
 ```
@@ -65,14 +65,14 @@ File: C:\Users\Owner\Desktop\Example Applications\unknown_installer.exe | Hash: 
 Trusted hash database updated.
 ```
 
-## 📸 Screenshots
+## Screenshots
 ### **Suspicious_Applications Folder:**
 ![image](https://github.com/user-attachments/assets/6b06c603-d160-44fb-ab82-87442d2e56b8)
 
 ### **CMD Output:**
 ![image](https://github.com/user-attachments/assets/14aadf44-f77c-43ae-aa21-fc2690bae278)
 
-## 📜 Source Code
+## Source Code
 
 ```python
 # Import required libraries
@@ -178,7 +178,7 @@ if __name__ == "__main__":
         print(f"[RESULT] {file} | Hash: {data['hash']} | VirusTotal Status: {data['virustotal_status']}")
 ```
 
-## 🤝 Contributing
+## Contributing
 Feel free to fork this repository and submit pull requests to improve the script!
 
 
